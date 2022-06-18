@@ -12,6 +12,7 @@ ThisBuild / developers := List(
 ThisBuild / organization := "com.armanbilge"
 ThisBuild / tlSonatypeUseLegacyHost := false
 ThisBuild / tlCiReleaseBranches += "publish/native"
+ThisBuild / tlMimaPreviousVersions := Set.empty
 
 val Scala213 = "2.13.8"
 
