@@ -9,6 +9,10 @@ ThisBuild / developers := List(
   tlGitHubDev("edmundnoble", "Edmund Noble")
 )
 
+ThisBuild / organization := "com.armanbilge"
+ThisBuild / tlSonatypeUseLegacyHost := false
+ThisBuild / tlCiReleaseBranches += "publish/native"
+
 val Scala213 = "2.13.8"
 
 ThisBuild / crossScalaVersions := Seq("3.1.2", "2.12.16", Scala213)
